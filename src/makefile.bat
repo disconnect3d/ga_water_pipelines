@@ -1,0 +1,1 @@
+g++ -Wall -Wextra -Wpedantic -std=c++11 -O3 -static-libgcc -static-libstdc++ main.cpp -o czarnota.exe
