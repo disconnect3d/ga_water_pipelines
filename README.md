@@ -8,7 +8,7 @@ Two genetic operators were used: mutation which added or removed water channel a
 
 Implemented selection had two versions – first one, when population was not so good (generations count < 3000) made that 10% of new population were completely new individuals. The second one when generations count was higher than 3000 made that 10% of the new population were the best individuals.
 
-## other informations
+## Other informations
 
 The code is written in c++11. No external libraries were used.
 
@@ -17,3 +17,9 @@ The description and comments are mainly in polish since that was an university p
 The code uses [placement new](https://en.wikipedia.org/wiki/Placement_syntax) in some places just to get better performance (should have used a std::vector, but oh well, wanted to do something weird and funny).
 
 Python was used as external scripts to debug the solutions (generate map, plot the solution, plot the relation between genethic parameters like probability of mutation/crossover and fitness function).
+
+## Example result visualisation
+
+Below you can see result visualisation made with `skrypty/pyplot.py` script. The blue lines represent pipelines and the red circles are towns.
+
+![example result visualisation](visualisation.png)
